@@ -49,3 +49,16 @@ kbd{
     border-color: #ffc600;
     box-shadow: 0 0 1rem #ffc600;
   }
+
+  @media (max-width: 700px) {
+      .keys {
+          display: flex;
+          flex-direction: column;
+          padding: 0 3rem;
+      }
+
+      .key {
+          width: 100%;
+          max-width: 200px;
+      }
+  }
